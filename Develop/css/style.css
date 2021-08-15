@@ -1,265 +1,500 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    scroll-behavior: smooth;
-}
-.contact_links { 
-    display: inline-block;
-    margin: 10px;
-    padding: 20px;
-    font-family: 'Crimson Text' , serif;
-    font-size: 20px;
-    background-color: #0057ff;
-    color: black;
-    border-style: solid;
-    border-radius: 40px;
-    border-color: slategray;
-    box-shadow: 10px 5px 5px slategrey;
-}
-
-body {
-    background-color: #ffff;
-    font-family: 'Work Sans' , sans-serif;
-}
-
-
-.backgroundimage img {
-    width: 100%;
-    height: 700px;
-}
-
-#jobtitle {
-   font-size: 30px;
-   text-align: center;
-   padding: 10px;
-}
-
-a {
-    color: #ffff;
-    text-decoration: none;
-}
-
-.navigation a li:hover{
-    transition: 0.2;
-    color: orange;
-}
-
-.sticky_nav {
-    postion: -webkit-sticky; /* Safari */
-    postion: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
-
-.navigation {
-    float: right;
-    padding-top: 10px;
-    padding-right: 20px;
-}
-
-.nav_bar {
-    padding-top: 30px;
-    width: 100%;
-    height: 100px;
-    background-color: #0057ff;
-}
-
-.backgroundimage {
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient( 229deg ,rgb(0 0 0 / 55%),rgb(0 87 255 / 72%)),url(/Assets/pictures/computer-data-analytics-blue-background-website-header.jpg);
-    color: #fff;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#jobtitle {
-    font-size: 90px;
-    text-align: center;
-    padding: 10px;
-}
-
-li {
-    display: inline;
-    padding: 20px;
-    font-size: 25px;
-}
-.header {
-    display: inline-block;
-    color: #ffff;
-    text-align: left;
-    margin-left: 50px;
-    font-size: 25px;
-}
-.profilepic img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    float: center;
-    margin-right: 200px;
-    margin-bottom: 20px;
-}
-
-.about-me {
-    color: #ffff;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 100px;
-    background-color: #0057ff;
-    box-shadow: 10px 5px 5px slategrey;
-}
-
-.about-me h2 {
-    font-size: 60px;
-    text-align: center;
-    display: inline-block;
-}
-
-.about-me p {
-    padding-top: 50px;
-    font-size: 30px;
-}
-
-
-.work {
-    color: #ffff;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 100px;
-    background-color: #0057ff;
-    box-shadow: 10px 5px 5px slategray;
-}
-
-.work h2 {
-    font-size: 50px;
-}
-
-.work p {
-    padding-top: 50px;
-    font-size: 30px;
-}
-
-.first-application img {
-    width: 250px;
-    height: 250px;
-    float: none;
-    margin: 20px auto;
-    text-align: center;
-    box-shadow: 10px 5px 5px navy;
-}
-
-.contact {
-    color: #ffff;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 100px;
-    background-color: #0057ff;
-    box-shadow: 10px 5px 5px slategray;
-}
-
-.contact h2 {
-    font-size: 50px;
-}
-
-.contact p {
-    padding-top: 50px;
-    font-size: 30px;
-}
-.email-icon img {
-    padding: 5px;
-    width: 100px;
-    height: 100px;
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        scroll-behavior: smooth;
+    }
     
-}
-
-.container {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-
-.overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: grey;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-  }
-  
-
-  .container:hover .overlay {
-    bottom: 0;
-    height: 100%;
-}
-  
-.text {
-    white-space: nowrap; 
-    color: white;
-    font-family: Arial;
-    font-size: 10px;
-    font-weight: bold;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
-.email-text {
-margin: 20px;
-text-align: left;    
-
-}
-.phone-text {
-    margin: 20px;
-    text-align: left;
-}
-
-.resume {
-    color: #ffff;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 100px;
-    background-color: #0057ff;
-    box-shadow: 10px 5px 5px slategray;
-}
-
-.resume h2 {
-    font-size: 50px;
-}
-
-.resume p {
-    padding-top: 50px;
-    font-size: 30px;
-}
-.footer-name {
-    margin: 100px;
-    text-align: center;
-}
-.form-box {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-label {
-    text-align: center;
-    width: 100px;
-    display: block;
-    float: center;
-    clear: right;
-    font-size: 20px;
-}
+    .contact_links {
+        margin: 20px;
+        text-align: center;
+        font-family: 'Crimson Text', serif;
+        font-size: 20px;
+    }
+    
+    #phone {
+        color: #ADEFD1FF;
+    }
+    
+    #email {
+        color: #ADEFD1FF
+    }
+    
+    body {
+        background: linear-gradient(228deg, rgba(0, 32, 63, 1) 23%, rgba(173, 239, 209, 1) 100%);
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .backgroundimage img {
+        width: 100%;
+        height: 700px;
+    }
+    
+    #jobtitle {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 80px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .sticky_nav {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .navigation {
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+    
+    .nav_bar {
+        padding-top: 10px;
+        background-color: #ADEFD1FF;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+    
+    .backgroundimage {
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #jobtitle {
+        font-size: 90px;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    li {
+        display: inline;
+        padding: 20px;
+        font-size: 25px;
+    }
+    
+    .header {
+        display: inline-block;
+        color: #00203FFF;
+        padding-left: 40px;
+        font-size: 25px;
+    }
+    
+    .about-me {
+        color: #ffff;
+        padding: 50px;
+    }
+    
+    .about-me h2 {
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    .about-me p {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    
+    .my-work {
+        height: 800px;
+    }
+    
+    .work {
+        height: 800px;
+        color: #ffff;
+        padding: 50px;
+    }
+    
+    .work h2 {
+        font-size: 50px;
+    }
+    
+    .work p {
+        padding-top: 50px;
+        font-size: 20px;
+    }
+    
+    #profile-photo {
+        height: 800px;
+        margin: auto;
+    }
+    
+    .first-application img {
+        width: 300px;
+        height: 300px;
+        float: none;
+        margin: 20px auto;
+    }
+    
+    .contact {
+        color: #ffff;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 100px;
+    }
+    
+    .contact h2 {
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    #email-btn {
+        margin-right: 10px;
+    }
+    
+    .container {
+        padding-left: 180px;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: grey;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+    }
+    
+    .container:hover .overlay {
+        bottom: 0;
+        height: 100%;
+    }
+    
+    .email-to {
+        white-space: nowrap;
+        color: white;
+        font-family: Arial;
+        font-size: 10px;
+        font-weight: bold;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    
+    .email-text {
+        margin: 20px;
+        text-align: left;
+    }
+    
+    .phone-text {
+        margin: 20px;
+        text-align: left;
+    }
+    
+    .resume {
+        color: #ffff;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 100px;
+        box-shadow: 10px 5px 5px slategray;
+    }
+    
+    .resume h2 {
+        font-size: 50px;
+    }
+    
+    .resume p {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    
+    .footer-name {
+        margin: 100px;
+        text-align: center;
+    }
+    
+    .form-box {
+        width: 300px;
+        margin: auto;
+    }
+    
+    #github-icon {
+        height: 40px;
+        width: 40px;
+        margin-top: 10px;
+    }
+    
+    #projects {
+        color: #00203FFF;
+        font-size: 25px;
+    }
+    
+    .about_me {
+        margin-top: 300px;
+    }
+    
+    #about {
+        color: #00203FFF;
+        font-size: 25px;
+    }
+    
+    #contact-me {
+        color: #00203FFF;
+        font-size: 25px;
+    }
+    
+    #my-resume {
+        color: #00203FFF;
+        font-size: 25px;
+    }
+    
+    #input-email {
+        width: 300px;
+    }
+    
+    #email-label {
+        color: white;
+        font-size: 20px;
+    }
+    
+    #message-label {
+        color: white;
+        font-size: 20px;
+    }
+    
+    #message-box {
+        width: 300px;
+        height: 100px;
+    }
+    
+    #send-btn {
+        margin-left: 80px;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .contact_links {
+            margin: 20px;
+            text-align: center;
+            font-family: 'Crimson Text', serif;
+            font-size: 20px;
+        }
+        #name-title {
+            font-size: 20px;
+        }
+        #phone {
+            color: #ADEFD1FF;
+        }
+        #email {
+            color: #ADEFD1FF
+        }
+        body {
+            background: linear-gradient(228deg, rgba(0, 32, 63, 1) 23%, rgba(173, 239, 209, 1) 100%);
+            font-family: 'Work Sans', sans-serif;
+        }
+        .backgroundimage img {
+            width: 100%;
+            height: 200px;
+        }
+        #jobtitle {
+            font-size: 30px;
+            text-align: center;
+            margin-left: 80px;
+        }
+        a {
+            text-decoration: none;
+        }
+        .navigation {}
+        .nav_bar {
+            padding-top: 10px;
+            background-color: #ADEFD1FF;
+            width: 100%;
+            height: 75px;
+            margin-bottom: 10px;
+        }
+        .backgroundimage {
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #jobtitle {
+            font-size: 90px;
+            text-align: center;
+            padding: 10px;
+        }
+        li {
+            display: inline;
+            padding: 20px;
+        }
+        .header {
+            display: inline-block;
+            color: #00203FFF;
+            padding-left: 5px;
+            font-size: 5px;
+        }
+        .about-me {
+            color: #ffff;
+            padding: 50px;
+        }
+        .about-me h2 {
+            font-size: 60px;
+            text-align: center;
+        }
+        .about-me p {
+            padding-top: 50px;
+            font-size: 30px;
+        }
+        .my-work {
+            height: 800px;
+        }
+        .work {
+            height: 800px;
+            color: #ffff;
+            padding: 50px;
+        }
+        .work h2 {
+            font-size: 50px;
+        }
+        .work p {
+            padding-top: 50px;
+            font-size: 20px;
+        }
+        #profile-photo {
+            height: 100px;
+            margin-bottom: 50px;
+        }
+        .first-application img {
+            width: 300px;
+            height: 300px;
+            float: none;
+            margin: 20px auto;
+        }
+        .contact {
+            color: #ffff;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 100px;
+        }
+        .contact h2 {
+            text-align: center;
+            font-size: 50px;
+        }
+        #email-btn {
+            margin-right: 10px;
+        }
+        .container {
+            padding-left: 180px;
+        }
+        .overlay {
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-color: grey;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+        }
+        .container:hover .overlay {
+            bottom: 0;
+            height: 100%;
+        }
+        .email-to {
+            white-space: nowrap;
+            color: white;
+            font-family: Arial;
+            font-size: 10px;
+            font-weight: bold;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }
+        .email-text {
+            margin: 20px;
+            text-align: left;
+        }
+        .phone-text {
+            margin: 20px;
+            text-align: left;
+        }
+        .resume {
+            color: #ffff;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 100px;
+            box-shadow: 10px 5px 5px slategray;
+        }
+        .resume h2 {
+            font-size: 50px;
+        }
+        .resume p {
+            padding-top: 50px;
+            font-size: 30px;
+        }
+        .footer-name {
+            margin: 100px;
+            text-align: center;
+        }
+        .form-box {
+            width: 300px;
+            margin: auto;
+        }
+        #github-icon {
+            height: 40px;
+            width: 40px;
+            margin-top: 10px;
+        }
+        #projects {
+            color: #00203FFF;
+            font-size: 25px;
+        }
+        .about_me {
+            margin-top: 300px;
+        }
+        #about {
+            color: #00203FFF;
+            font-size: 10px;
+        }
+        #contact-me {
+            color: #00203FFF;
+            font-size: 10px;
+        }
+        #my-resume {
+            color: #00203FFF;
+            font-size: 10px;
+        }
+        #input-email {
+            width: 300px;
+        }
+        #email-label {
+            color: white;
+            font-size: 20px;
+        }
+        #message-label {
+            color: white;
+            font-size: 20px;
+        }
+        #message-box {
+            width: 300px;
+            height: 100px;
+        }
+        #send-btn {
+            margin-left: 80px;
+        }
+    }
