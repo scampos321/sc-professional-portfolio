@@ -143,17 +143,18 @@
     
     .project-images {
         display: flex;
-        align-items: center;
     }
     
     #day-planner-img {
         width: 320px;
         height: 300px;
+        margin-left: 100px;
     }
     
     #first-text {
         text-align: center;
         color: white;
+        margin-right: 70px;
     }
     
     #passwordgen-img {
@@ -167,6 +168,12 @@
     }
     
     #brain-text {
+        margin-right: 90px;
+        text-align: center;
+    }
+    
+    #pass-text {
+        margin-right: 90px;
         text-align: center;
     }
     
@@ -262,7 +269,14 @@
         height: 40px;
         width: 40px;
         margin-top: 20px;
-        margin-left: 190px;
+        margin-left: 150px;
+    }
+    
+    #github-projects-1 {
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 240px;
     }
     
     #github-icon {
