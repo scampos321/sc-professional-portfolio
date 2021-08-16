@@ -56,14 +56,13 @@
     .navigation {
         padding-top: 10px;
     }
-    
-    .navigation ul {
+    /* .navigation ul {
         display: flex;
     }
     
     .navigation li {
         justify-content: right;
-    }
+    } */
     
     .navigation a {
         text-align: center;
@@ -358,8 +357,8 @@
             font-family: 'Work Sans', sans-serif;
         }
         #jobtitle {
-            font-size: 30px;
-            margin-left: 30px;
+            font-size: 35px;
+            margin-left: 20px;
         }
         a {
             text-decoration: none;
@@ -370,11 +369,12 @@
             height: 75px;
         }
         .navigation {
-            width: 75%;
+            width: 100%;
             display: flex;
         }
         .navigation li {
-            align-items: flex-start;
+            width: 50px;
+            height: 50px;
         }
         .backgroundimage {
             height: 200px;
@@ -387,20 +387,20 @@
         }
         .header {
             color: #00203FFF;
-            padding-left: 5px;
-            font-size: 5px;
+            padding-left: 10px;
+            font-size: 20px;
         }
         .about-me {
             color: #ffff;
             padding: 50px;
         }
         .about-me h2 {
-            font-size: 60px;
+            font-size: 40px;
             text-align: center;
         }
         .about-me p {
             padding-top: 50px;
-            font-size: 30px;
+            font-size: 20px;
         }
         .my-work {
             height: 1500px;
@@ -413,7 +413,7 @@
             padding: 50px;
         }
         .work h2 {
-            margin-right: 70px;
+            margin-right: 20px;
             text-align: center;
             font-size: 50px;
         }
@@ -422,8 +422,8 @@
             font-size: 20px;
         }
         #profile-photo {
-            height: 200px;
-            width: 200px;
+            height: 300px;
+            width: 220px;
             margin-top: 50px;
         }
         .project-images {
@@ -431,27 +431,28 @@
             flex-direction: column;
         }
         #day-planner-img {
-            width: 200px;
-            height: 200px;
+            width: 220px;
+            height: 250px;
             margin-bottom: 20px;
-            margin-left: 40px;
+            margin-left: 30px;
         }
         #first-text {
             text-align: center;
             color: white;
-            padding: 20px;
+            padding-left: 45px;
+            padding-bottom: 40px;
         }
         #passwordgen-img {
             width: 200px;
-            height: 200px;
+            height: 250px;
             margin-bottom: 20px;
             margin-left: 40px;
         }
         #brain-breaks-img {
-            width: 200px;
-            height: 210px;
+            width: 250px;
+            height: 250px;
             margin-bottom: 20px;
-            margin-left: 40px;
+            margin-left: 20px;
         }
         #github-projects {
             height: 40px;
@@ -464,10 +465,12 @@
             margin-left: 120px;
         }
         #brain-text {
-            padding: 30px;
+            padding-bottom: 40px;
+            padding-left: 70px;
         }
         #pass-text {
-            padding: 35px;
+            padding-bottom: 40px;
+            padding-left: 70px;
         }
         .contact {
             color: #ffff;
@@ -520,33 +523,35 @@
             margin: auto;
         }
         #github-icon {
-            height: 15px;
-            width: 15px;
-            margin-top: 10px;
+            margin-left: 15px;
+            height: 20px;
+            width: 20px;
+            margin-top: 17px;
         }
         #linkedin-icon {
             height: 15px;
             width: 15px;
-            margin-top: 10px;
+            margin-top: 17px;
+            margin-left: 8px;
         }
         #projects {
             color: #00203FFF;
-            font-size: 7px;
+            font-size: 10px;
         }
         .about_me {
-            margin-top: 300px;
+            margin-top: 200px;
         }
         #about {
             color: #00203FFF;
-            font-size: 7px;
+            font-size: 10px;
         }
         #contact-me {
             color: #00203FFF;
-            font-size: 7px;
+            font-size: 10px;
         }
         #my-resume {
             color: #00203FFF;
-            font-size: 7px;
+            font-size: 10px;
         }
         #input-email {
             width: 300px;
