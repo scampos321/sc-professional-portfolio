@@ -16,6 +16,10 @@
         font-size: 20px;
     }
     
+    #name-title {
+        color: rgba(0, 32, 63, 1);
+    }
+    
     #phone {
         color: #ADEFD1FF;
     }
@@ -53,23 +57,19 @@
         z-index: 1;
     }
     
-    .navigation {
-        padding-top: 10px;
-    }
-    /* .navigation ul {
-        display: flex;
-    }
+    #navigation {}
     
-    .navigation li {
-        justify-content: right;
-    } */
+    #navigation ul {}
     
-    .navigation a {
+    nav li {}
+    
+    #navigation a {
         text-align: center;
     }
     
-    .nav_bar {
+    .nav-wrapper {
         display: flex;
+        justify-content: space-evenly;
         padding-top: 10px;
         background-color: #ADEFD1FF;
         width: 100%;
@@ -188,8 +188,11 @@
     
     #email-btn {}
     
+    #phone-btn {}
+    
     .container {
-        padding-left: 180px;
+        display: flex;
+        justify-content: space-evenly;
     }
     
     .overlay {
@@ -363,20 +366,28 @@
         a {
             text-decoration: none;
         }
-        .nav_bar {
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 0px;
             background-color: #ADEFD1FF;
             width: 100%;
-            height: 75px;
+            height: 100px;
         }
-        .navigation {
+        #navigation {
             width: 100%;
             display: flex;
         }
-        .navigation li {
+        #navigation li {
+            width: 50px;
+            height: 50px;
+        }
+        #navigation a {
             width: 50px;
             height: 50px;
         }
         .backgroundimage {
+            margin-top: 100px;
             height: 200px;
             display: flex;
             justify-content: center;
@@ -387,8 +398,8 @@
         }
         .header {
             color: #00203FFF;
-            padding-left: 10px;
-            font-size: 20px;
+            padding-left: 20px;
+            font-size: 10px;
         }
         .about-me {
             color: #ffff;
@@ -423,7 +434,7 @@
         }
         #profile-photo {
             height: 300px;
-            width: 220px;
+            width: 200px;
             margin-top: 50px;
         }
         .project-images {
