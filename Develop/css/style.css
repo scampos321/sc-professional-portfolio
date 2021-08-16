@@ -79,7 +79,6 @@
     }
     
     .backgroundimage {
-        height: 800px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -137,8 +136,7 @@
     }
     
     #profile-photo {
-        height: 800px;
-        margin: auto;
+        width: 600px;
     }
     
     .project-images {
@@ -189,9 +187,7 @@
         font-size: 50px;
     }
     
-    #email-btn {
-        margin-right: 10px;
-    }
+    #email-btn {}
     
     .container {
         padding-left: 180px;
@@ -417,6 +413,7 @@
             padding: 50px;
         }
         .work h2 {
+            margin-right: 70px;
             text-align: center;
             font-size: 50px;
         }
@@ -425,8 +422,8 @@
             font-size: 20px;
         }
         #profile-photo {
-            width: 200px;
             height: 200px;
+            width: 200px;
             margin-top: 50px;
         }
         .project-images {
@@ -461,6 +458,11 @@
             width: 40px;
             margin-left: 120px;
         }
+        #github-projects-1 {
+            height: 40px;
+            width: 40px;
+            margin-left: 120px;
+        }
         #brain-text {
             padding: 30px;
         }
@@ -477,23 +479,23 @@
         }
         .container {
             display: flex;
-            padding-left: 20px;
+            flex-direction: column;
+            padding-left: 1px;
         }
         #email-btn {
-            flex-direction: row;
-            padding-right: 100px;
+            margin-bottom: 20px;
+            padding-left: 5px;
         }
         #phone-btn {
-            flex-direction: row;
-            padding-right: 100px;
+            padding-left: 5px;
         }
         .email-text {
-            font-size: 5px;
-            text-align: right;
+            font-size: 7px;
+            text-align: center;
         }
         .phone-text {
-            font-size: 5px;
-            text-align: right;
+            font-size: 7px;
+            text-align: center;
         }
         .resume {
             color: #ffff;
