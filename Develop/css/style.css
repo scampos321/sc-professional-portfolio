@@ -113,17 +113,19 @@
     }
     
     .work {
+        margin-left: 30px;
         height: 800px;
         color: #ffff;
-        padding: 50px;
     }
     
     .work h2 {
+        text-align: center;
         font-size: 50px;
+        padding-bottom: 20px;
     }
     
     .work p {
-        padding-top: 50px;
+        padding-top: 30px;
         font-size: 20px;
     }
     
@@ -132,11 +134,33 @@
         margin: auto;
     }
     
-    .first-application img {
+    .project-images {
+        display: flex;
+        align-items: center;
+    }
+    
+    #day-planner-img {
+        width: 320px;
+        height: 300px;
+    }
+    
+    #first-text {
+        text-align: center;
+        color: white;
+    }
+    
+    #passwordgen-img {
         width: 300px;
         height: 300px;
-        float: none;
-        margin: 20px auto;
+    }
+    
+    #brain-breaks-img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    #brain-text {
+        text-align: center;
     }
     
     .contact {
@@ -227,6 +251,13 @@
         margin: auto;
     }
     
+    #github-projects {
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 190px;
+    }
+    
     #github-icon {
         height: 40px;
         width: 40px;
@@ -279,8 +310,9 @@
     #send-btn {
         margin-left: 80px;
     }
+    /*  */
     
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 700px) {
         .contact_links {
             margin: 20px;
             text-align: center;
@@ -288,7 +320,7 @@
             font-size: 20px;
         }
         #name-title {
-            font-size: 20px;
+            font-size: 12px;
         }
         #phone {
             color: #ADEFD1FF;
@@ -300,26 +332,25 @@
             background: linear-gradient(228deg, rgba(0, 32, 63, 1) 23%, rgba(173, 239, 209, 1) 100%);
             font-family: 'Work Sans', sans-serif;
         }
-        .backgroundimage img {
-            width: 100%;
-            height: 200px;
-        }
         #jobtitle {
             font-size: 30px;
-            text-align: center;
-            margin-left: 80px;
+            margin-left: 30px;
         }
         a {
             text-decoration: none;
         }
-        .navigation {}
         .nav_bar {
-            padding-top: 10px;
+            display: flex;
+            justify-content: right;
             background-color: #ADEFD1FF;
             width: 100%;
             height: 75px;
-            margin-bottom: 10px;
         }
+        li {
+            height: 40px;
+            width: 40px;
+        }
+        .right .navigation {}
         .backgroundimage {
             height: 200px;
             display: flex;
@@ -329,17 +360,7 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        #jobtitle {
-            font-size: 90px;
-            text-align: center;
-            padding: 10px;
-        }
-        li {
-            display: inline;
-            padding: 20px;
-        }
         .header {
-            display: inline-block;
             color: #00203FFF;
             padding-left: 5px;
             font-size: 5px;
@@ -357,14 +378,17 @@
             font-size: 30px;
         }
         .my-work {
-            height: 800px;
+            height: 1500px;
         }
         .work {
-            height: 800px;
+            display: flex;
+            flex-direction: column;
+            height: 1500px;
             color: #ffff;
             padding: 50px;
         }
         .work h2 {
+            text-align: center;
             font-size: 50px;
         }
         .work p {
@@ -372,66 +396,75 @@
             font-size: 20px;
         }
         #profile-photo {
-            height: 100px;
-            margin-bottom: 50px;
+            width: 200px;
+            height: 200px;
+            margin-top: 50px;
         }
-        .first-application img {
-            width: 300px;
-            height: 300px;
-            float: none;
-            margin: 20px auto;
+        .project-images {
+            display: flex;
+            flex-direction: column;
+        }
+        #day-planner-img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+            margin-left: 40px;
+        }
+        #first-text {
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        #passwordgen-img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+            margin-left: 40px;
+        }
+        #brain-breaks-img {
+            width: 200px;
+            height: 210px;
+            margin-bottom: 20px;
+            margin-left: 40px;
+        }
+        #github-projects {
+            height: 40px;
+            width: 40px;
+            margin-left: 120px;
+        }
+        #brain-text {
+            padding: 30px;
+        }
+        #pass-text {
+            padding: 35px;
         }
         .contact {
             color: #ffff;
-            border-radius: 10px;
-            margin: 20px;
-            padding: 100px;
+            height: 600px;
         }
         .contact h2 {
             text-align: center;
             font-size: 50px;
         }
-        #email-btn {
-            margin-right: 10px;
-        }
         .container {
-            padding-left: 180px;
+            display: flex;
+            padding-left: 20px;
         }
-        .overlay {
-            position: absolute;
-            bottom: 100%;
-            left: 0;
-            right: 0;
-            background-color: grey;
-            overflow: hidden;
-            width: 100%;
-            height: 0;
-            transition: .5s ease;
+        #email-btn {
+            flex-direction: row;
+            padding-right: 100px;
         }
-        .container:hover .overlay {
-            bottom: 0;
-            height: 100%;
-        }
-        .email-to {
-            white-space: nowrap;
-            color: white;
-            font-family: Arial;
-            font-size: 10px;
-            font-weight: bold;
-            position: absolute;
-            overflow: hidden;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
+        #phone-btn {
+            flex-direction: row;
+            padding-right: 100px;
         }
         .email-text {
-            margin: 20px;
-            text-align: left;
+            font-size: 5px;
+            text-align: right;
         }
         .phone-text {
-            margin: 20px;
-            text-align: left;
+            font-size: 5px;
+            text-align: right;
         }
         .resume {
             color: #ffff;
@@ -456,28 +489,33 @@
             margin: auto;
         }
         #github-icon {
-            height: 40px;
-            width: 40px;
+            height: 15px;
+            width: 15px;
+            margin-top: 10px;
+        }
+        #linkedin-icon {
+            height: 15px;
+            width: 15px;
             margin-top: 10px;
         }
         #projects {
             color: #00203FFF;
-            font-size: 25px;
+            font-size: 7px;
         }
         .about_me {
             margin-top: 300px;
         }
         #about {
             color: #00203FFF;
-            font-size: 10px;
+            font-size: 7px;
         }
         #contact-me {
             color: #00203FFF;
-            font-size: 10px;
+            font-size: 7px;
         }
         #my-resume {
             color: #00203FFF;
-            font-size: 10px;
+            font-size: 7px;
         }
         #input-email {
             width: 300px;
