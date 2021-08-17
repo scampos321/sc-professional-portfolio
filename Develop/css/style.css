@@ -188,9 +188,28 @@
         font-size: 50px;
     }
     
-    #email-btn {}
+    #resume {
+        display: flex;
+        height: 800px;
+    }
     
-    #phone-btn {}
+    #resume-title {
+        padding-top: 300px;
+    }
+    
+    #googledoc {
+        margin-top: 350px;
+        margin-left: 150px;
+        width: 50px;
+        height: 60px;
+    }
+    
+    #resume-img {
+        margin-left: 150px;
+        margin-top: 150px;
+        width: 400px;
+        height: 450px;
+    }
     
     .container {
         display: flex;
@@ -514,15 +533,34 @@
             font-size: 7px;
             text-align: center;
         }
+        #resume {
+            display: flex;
+            /* height: 800px; */
+        }
+        #resume-title {
+            /* padding-top: 300px; */
+            margin-right: 20px;
+        }
+        #googledoc {
+            margin-left: -220px;
+            width: 30px;
+            height: 40px;
+        }
+        #resume-img {
+            margin-left: -150px;
+            margin-top: 400px;
+            width: 160px;
+            height: 200px;
+        }
         .resume {
             color: #ffff;
             border-radius: 10px;
             margin: 20px;
-            padding: 100px;
+            padding: 150px;
             box-shadow: 10px 5px 5px slategray;
         }
         .resume h2 {
-            font-size: 50px;
+            font-size: 30px;
         }
         .resume p {
             padding-top: 50px;
