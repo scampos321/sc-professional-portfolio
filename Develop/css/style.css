@@ -29,7 +29,7 @@
     }
     
     body {
-        background: linear-gradient(228deg, rgba(0, 32, 63, 1) 23%, rgba(173, 239, 209, 1) 100%);
+        background: linear-gradient(266deg, rgba(0, 32, 63, 1) 23%, rgba(173, 239, 209, 1) 100%);
         font-family: 'Work Sans', sans-serif;
     }
     
@@ -377,7 +377,7 @@
             color: #ADEFD1FF
         }
         body {
-            background: linear-gradient(228deg, rgba(0, 32, 63, 1) 23%, rgba(173, 239, 209, 1) 100%);
+            background: linear-gradient(266deg, rgba(0, 32, 63, 1) 23%, rgba(173, 239, 209, 1) 100%);
             font-family: 'Work Sans', sans-serif;
         }
         #jobtitle {
